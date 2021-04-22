@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Defaults -->
+        <title>CM Portfolio</title>
+
+        <!-- META -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS Links -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/modal.css">
+
+        <!-- Plugin Links -->
+        <script src="https://kit.fontawesome.com/dffce36e0a.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    </head>
+    <body>
+        <!-- NAVIGATION -->
+        <section class="main-nav" >
+            <ul>
+                <li class="logo"><a href="index.html" style="list-style: none; text-decoration: none; color: black; font-weight: bold;">CM PORTFOLIO</a></li>
+                <li class="about"><a href="about.html" style="list-style: none; text-decoration: none; color: black;">ABOUT</a></li>
+                <li class="contact"><a href="contact.html" style="list-style: none; text-decoration: none; color: black;">CONTACT</a></li>
+            </ul>
+            </section>
+
+        <!-- START OF FILTER GALLERY -->
+        <!-- TUTORIAL FOR JS AND HTML BY: ONLINE TUTORIALS -->
+        <section class="section-gallery">
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="past">Past Work</li>
+                <li class="list" data-filter="current">Current Work</li>
+                <li class="list" data-filter="wips">WIPS</li>
+                <li class="list" data-filter="challenge">Design Challenges</li>
+            </ul>
+
+            <div class="gallery-work">
+                <div class="itemBox past">
+                    <img src="./img/musicApp-01.png">
+                    <div class="overlay">
+                        <div class="text"><a>Music Player</a></div>
+                        <!-- MODAL BUTTON -->
+                        <button class="modal-open s-text" data-modal="modal-01">Click Here</button>
+                    </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal" id="modal-01">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">Music Web App</div>
+                        <div class="modal-body">
+                            <h3>Description</h3>
+                            <p>This was a JavaScript based music player I did as a test of my skills since starting
+                                to learn Javascript, This taught me a lot about arrays and multiple other functions
+                                that could be used in real life applications. This didnt use Bootstrap or Jquery since
+                                this was my first real project using JavaScript. The music player plays 3 songs currently
+                                and allows you to skip a song, play and pause a song, as well as adjust the volume.
+                            </p>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li class="list-content">HTML and CSS</li>
+                                <li class="list-content">JavaScript</li>
+                                <li class="list-content">VSCode</li>
+                                <li class="list-content">Design Thinking</li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://clintmccall81.github.io/AudioInterface/" target="_blank"><button class="link modal-link" href="https://clintmccall81.github.io/AudioInterface/">Github Link</button></a>
+                            <button class="link modal-close">Close Modal</button>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- END OF MODAL 1 -->
+
+                <div class="itemBox current">
+                    <img src="./img/ncBank-01.png">
+                    <div class="overlay">
+                        <div class="text"><a>Bank App Concept</a></div>
+                        <!-- MODAL BUTTON -->
+                        <button class="modal-open s-text" data-modal="modal-02">Click Here</button>
+                    </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal" id="modal-02">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">New Court Bank App Concept</div>
+                        <div class="modal-body">
+                            <h3>Description</h3>
+                            <p>This was a bank app concept orginally for a motion design production assignment at GBC. I wanted to practice my UI Skills
+                               during this point of the semester so I went for a <strong>Dark UI</strong> type of design. I had recently studied some nueomorphism
+                               as well so I implimented that into my design going forward.
+                            </p>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li class="list-content">Adobe XD</li>
+                                <li class="list-content">Design Thinking</li>
+                                <li class="list-content">Color Theory</li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="link modal-link-disable">Github Link</button>
+                            <button class="link modal-close">Close Modal</button>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- END OF MODAL 02 -->
+                
+                <div class="itemBox current">
+                    <img src="./img/personalnfo-final.png">
+                    <div class="overlay">
+                        <div class="text"><a>Future of Information Design Jam</a></div>
+                        <!-- MODAL BUTTON -->
+                        <button class="modal-open s-text" data-modal="modal-03">Click Here</button>
+                    </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal" id="modal-03">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">Future of Information Design Jam</div>
+                        <div class="modal-body">
+                            <h3>Description</h3>
+                            <p>This was my first time doing a design jam. It really was exicting to put my newer skills on the line. To prove to myself that im improving.
+                               The design turned out much better than I had hoped given the 6 hour timeframe. 2 hours was spent on brainstorming and finding our "users", The
+                               other 4 hours was spent designing and completing the presentation slides for our concept. Our team consisted of 6 people Myself, Sarah Murad, Lily Phan, 
+                               Alex B, Ava, and Luiz Veiga. We split the responsibilites as such: Sarah, Myself, and Lily handled the UI Design, Wireframing, and Sitemaps. The other half of the teamwork
+                               handled the User Journeys, User Stories, and Personas. 
+                            </p>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li class="list-content">Adobe XD</li>
+                                <li class="list-content">Teamwork</li>
+                                <li class="list-content">Design Jam</li>
+                                <li class="list-content">Design Thinking</li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="link modal-link-disable">Github Link</button>
+                            <button class="link modal-close">Close Modal</button>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- END OF MODAL 03 -->
+
+                <div class="itemBox past">
+                    <img src="./img/lemon-magic-site.png">
+                    <div class="overlay">
+                        <div class="text"><a>Lemon Magic Cake Recipe Page</a></div>
+                        <button class="modal-open s-text" data-modal="modal-04">Click Here</button>
+                    </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal" id="modal-04">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">Lemon Magic Cake Recipe Page</div>
+                        <div class="modal-body">
+                            <h3>Description</h3>
+                            <p> This was a site when I was starting out in GBC Interactive Prototyping class. This is when I first learned CSS Grids and CSS Flex(box)
+                                although flexbox wasnt used in this site since I wanted to focus my attention on one CSS strategy. I realized sooner than later that I shoudlve
+                                utilized flex on the navbar however I was still deadset on learning more about CSS Grids. Fourtunatley it turned out much better than antisipated.
+                                I used Adobe XD orginally for wireframeing the site. However during the wireframe / low fidelity prototype stage I was testing my colour palette the
+                                XD File also became my style guide. In the end I feel it turned out great. 
+                            </p>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li class="list-content">Adobe XD</li>
+                                <li class="list-content">HTML and CSS</li>
+                                <li class="list-content">JavaScript</li>
+                                <li class="list-content">Design Thinking</li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://clintmccall81.github.io/InterfaceDevelopment-SEM-03-LAB-01/" target="_blank"><button class="link modal-link">Github Link</button></a>
+                            <button class="link modal-close">Close Modal</button>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- END OF MODAL 04 -->
+
+                <div class="itemBox wips">
+                    <img src="./img/Render_NO_MAT.png">
+                    <div class="overlay">
+                        <div class="text"><a>Subways Scene (Blender 2.8)</a></div>
+                        <button class="modal-open s-text" data-modal="modal-05">Click Here</button>
+                    </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal" id="modal-05">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">Blender (2.8a) Subway Scene</div>
+                        <div class="modal-body">
+                            <h3>Description</h3>
+                            <p>This project is still in progress. Updates will come soon</p>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li class="list-content">3D Modeling</li>
+                                <li class="list-content">Level Design</li>
+                                <li class="list-content">Material Creation</li>
+                                <li class="list-content">Blender (2.8a)</li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="link modal-link-disable">Github Link</button>
+                            <button class="link modal-close">Close Modal</button>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- END OF MODAL 05 -->
+
+                <div class="itemBox challenge">
+                    <img src="./img/ui-day-01-final.png">
+                    <div class="overlay">
+                        <div class="text"><a>UI Design Challenge Day 01</a></div>
+                        <button class="modal-open s-text" data-modal="modal-06">Click Here</button>
+                    </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal" id="modal-06">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">UI Design Challenge 01</div>
+                        <div class="modal-body">
+                            <h3>Description</h3>
+                            
+                            <p>This project will be updated soon, This can be because the author hasnt updated the content or is still uploading the work</p>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li class="list-content">Adobe XD</li>
+                                <li class="list-content">Design Thinking</li>
+                                <li class="list-content">Colour Theory</li>
+                                <li class="list-content">Adobe XD Plugins</li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="link modal-link-disable">Github Link</button>
+                            <button class="link modal-close">Close Modal</button>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- END OF MODAL 06 -->
+
+                <div class="itemBox challenge">
+                    <img src="./img/ui-day-02-final.png">
+                    <div class="overlay">
+                        <div class="text"><a>UI Design Challenge Day 02</a></div>
+                        <button class="modal-open s-text" data-modal="modal-07">Click Here</button>
+                    </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal" id="modal-07">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">UI Design Challenge 02</div>
+                        <div class="modal-body">
+                            <h3>Description</h3>
+                            
+                            <p>This project will be updated soon, This can be because the author hasnt updated the content or is still uploading the work</p>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li class="list-content">Adobe XD</li>
+                                <li class="list-content">Design Thinking</li>
+                                <li class="list-content">Colour Theory</li>
+                                <li class="list-content">Adobe XD Plugins</li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="link modal-link-disable">Github Link</button>
+                            <button class="link modal-close">Close Modal</button>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- END OF MODAL 07 -->
+
+                <div class="itemBox challenge">
+                    <img src="./img/ui-day-03-final.png">
+                    <div class="overlay">
+                        <div class="text"><a>UI Design Challenge Day 03</a></div>
+                        <button class="modal-open s-text" data-modal="modal-08">Click Here</button>
+                    </div>
+                </div>
+
+                <!-- MODAL -->
+                <div class="modal" id="modal-08">
+                    <div class="modal-content">
+                        
+                        <div class="modal-header">UI Design Challenge 03</div>
+                        <div class="modal-body">
+                            <h3>Description</h3>
+                            
+                            <p>This project will be updated soon, This can be because the author hasnt updated the content or is still uploading the work</p>
+
+                            <h3>Skills</h3>
+                            <ul>
+                                <li class="list-content">Adobe XD</li>
+                                <li class="list-content">Design Thinking</li>
+                                <li class="list-content">Colour Theory</li>
+                                <li class="list-content">Adobe XD Plugins</li>
+                            </ul>
+
+                            
+
+                        </div>
+                        <div class="modal-footer">
+                            <button class="link modal-link-disable">Github Link</button>
+                            <button class="link modal-close">Close Modal</button>
+                        </div>
+            
+                    </div>
+                </div>
+                <!-- END OF MODAL 08 -->
+            
+            <!-- END OF work div tag, ADD ANYTHING TO THE GRID ABOVE THIS TAG -->
+            </div>
+
+        </section>
+        
+        <!-- JavaScript -->
+        <script type="text/javascript" src="js/script.js"></script>
+        
+    </body>
+</html>
